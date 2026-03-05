@@ -201,7 +201,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(135deg,#fffbfb,#ffffff,#ffffff);
+    background:linear-gradient(135deg,#080808,#000000,#a8a4a4);
 }
 
 /* Login Card */
