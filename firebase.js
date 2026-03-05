@@ -17,7 +17,7 @@
  console.log("initialize", app);
   const auth = getAuth(app)
     console.log("auth", auth);
-
+var text =document.getElementById("text")
     
  // signup 
 var signupbtn = document.getElementById("signupbtn")
@@ -29,8 +29,8 @@ function signup(){
   
   createUserWithEmailAndPassword(auth, semail, spassword)
   .then((userCredential) => {
- 
   const user = userCredential.user;
+  text.innerText= user.email
   })
   .catch((error) => {
   const errorCode = error.code;
