@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="heading">Hover over me!</h2>
+
+<script>
+function hoverMessage() {
+  console.log(" fu k You ");
+}
+
+document.getElementById("heading")
+        .addEventListener("mouseenter", hoverMessage);
+</script>
+
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click API Example</title>
+</head>
+<body>
+
+  <h2>Click the button to get user data</h2>
+
+  <button id="getDataBtn">Get User</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>  -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Callback Example</title>
+</head>
+<body>
+
+  <h2>Callback Practice</h2>
+  <button onclick="runDouble()">Double 5</button>
+  <button onclick="runSquare()">Square 5</button>
+
+  <p id="re sult"></p>
+
+  <script>
+    function processNumber(number, callback) {
+      return callback(number);
+    }
+
+    function double(num) {
+      return num * 2;
+    }
+
+    function square(num) {
+      return num * num;
+    }
+
+    function runDouble() {
+      document.getElementById("result").innerText =
+        processNumber(5, double);
+    }
+
+    function runSquare() {
+      document.getElementById("result").innerText =
+        processNumber(5, square);
+    }
+  </script>
+
+</body>
+</html> -->
+<script>
+var sum1 = +prompt("Enter first number");
+var sum2 = +prompt("Enter second number");
+var ope = prompt("Choose an operator: +, -, x, %");
+
+function calculator(num1, operator, num2) {
+  let result;
+
+  if (operator === "+") {
+    result = num1 + num2;
+  } else if (operator === "-") {
+    result = num1 - num2;
+  } else if (operator === "x" || operator === "*") {
+    result = num1 * num2;
+  } else if (operator === "%") {
+    result = num1 % num2;
+  } else {
+    return "Invalid operator!";
+  }
+
+  return `Result: ${result}`;
+}
+
+console.log(calculator(sum1, ope, sum2));
+</script>
