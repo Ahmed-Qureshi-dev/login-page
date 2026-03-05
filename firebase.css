@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -7,7 +7,6 @@
 
 
 
-/* Login Card */
 .login-box{
     background:rgba(255,255,255,0.05);
     backdrop-filter: blur(10px);
@@ -19,13 +18,13 @@
     box-shadow:0 10px 40px rgba(0,0,0,0.4);
 }
 
-/* Title */
+
 .login-box h2{
     margin-bottom:25px;
     letter-spacing:1px;
 }
 
-/* Inputs */
+
 .login-box input{
     width:100%;
     padding:12px;
@@ -42,7 +41,7 @@
     color:#ccc;
 }
 
-/* Button */
+
 .login-box button{
     width:100%;
     padding:12px;
@@ -61,7 +60,7 @@
     box-shadow:0 5px 20px rgba(0,0,0,0.3);
 }
 
-/* Register text */
+
 .register{
     margin-top:15px;
     font-size:14px;
@@ -89,14 +88,13 @@ body{
     animation:gradientMove 12s ease infinite;
 }
 
-/* background animation */
+
 @keyframes gradientMove{
     0%{background-position:0% 50%;}
     50%{background-position:100% 50%;}
     100%{background-position:0% 50%;}
 }
 
-/* Login Card */
 .login-box{
     background:rgba(255,255,255,0.08);
     backdrop-filter: blur(14px);
@@ -121,14 +119,13 @@ body{
     }
 }
 
-/* Title */
+
 .login-box h2{
     margin-bottom:25px;
     letter-spacing:1px;
     font-weight:600;
 }
 
-/* Inputs */
 .login-box input{
     width:100%;
     padding:13px;
@@ -146,13 +143,12 @@ body{
     color:#d3d3d3;
 }
 
-/* input focus */
 .login-box input:focus{
     background:rgba(255,255,255,0.18);
     box-shadow:0 0 10px rgba(0,198,255,0.6);
 }
 
-/* Button */
+
 .login-box button{
     width:100%;
     padding:13px;
@@ -168,13 +164,13 @@ body{
     overflow:hidden;
 }
 
-/* button hover effect */
+
 .login-box button:hover{
     transform:translateY(-3px);
     box-shadow:0 10px 25px rgba(0,0,0,0.4);
 }
 
-/* Register text */
+
 .register{
     margin-top:18px;
     font-size:14px;
@@ -204,7 +200,7 @@ body{
     background:linear-gradient(135deg,#080808,#000000,#a8a4a4);
 }
 
-/* Login Card */
+
 .login-box{
     background:rgba(0,0,0,0.85);
     padding:40px;
@@ -217,7 +213,7 @@ body{
     animation:fadeIn 1s ease;
 }
 
-/* animation */
+
 @keyframes fadeIn{
     from{
         opacity:0;
@@ -229,14 +225,14 @@ body{
     }
 }
 
-/* Title */
+
 .login-box h2{
     margin-bottom:25px;
     color:#FFD700;
     letter-spacing:1px;
 }
 
-/* Inputs */
+
 .login-box input{
     width:100%;
     padding:13px;
@@ -254,13 +250,13 @@ body{
     color:#aaa;
 }
 
-/* input focus glow */
+
 .login-box input:focus{
     border:1px solid #FFD700;
     box-shadow:0 0 10px rgba(255,215,0,0.6);
 }
 
-/* Button */
+
 .login-box button{
     width:100%;
     padding:13px;
@@ -275,13 +271,13 @@ body{
     transition:0.3s;
 }
 
-/* button hover */
+
 .login-box button:hover{
     transform:translateY(-2px);
     box-shadow:0 0 15px rgba(255,215,0,0.8);
 }
 
-/* Register text */
+
 .register{
     margin-top:18px;
     font-size:14px;
@@ -296,7 +292,6 @@ body{
     text-decoration:underline;
 }
 
-/* Mobile Responsive */
 @media(max-width:480px){
 
 .login-box{
@@ -304,4 +299,4 @@ body{
     padding:30px;
 }
 
-}
+} */

@@ -5,6 +5,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="firebase.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 <body>
 
@@ -12,10 +13,17 @@
     <h2>Login</h2>
 
     <form>
-        <input type="email" id="semail" placeholder="Email" required>
-        <input type="password" id="spassword" placeholder="Password" required>
+        <input type="email" id="semail" placeholder="Email" autocomplete="off">
+        <input type="password" id="spassword" placeholder="Password" autocomplete="off">
 
         <button id="signupbtn" type="submit">signup</button>
+    </form>
+
+    <form>
+        <input type="email" id="lemail" placeholder="Email" required>
+        <input type="password" id="lpassword" placeholder="Password" required>
+
+        <button id="loginbtn" type="submit">login</button>
     </form>
 
     <p class="register">
